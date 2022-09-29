@@ -1,0 +1,5 @@
+const ourDecimal = 3.3;
+
+// Only change code below this line
+
+let myDecimal = 2.3;
