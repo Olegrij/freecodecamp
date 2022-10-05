@@ -1,8 +1,9 @@
-const myName = 'Oleg'
+const objectA = {
+	a: 10,
+	b: true
+}
 
-myName = 'Rij'
+const copyOfA = objectA
 
-myLast =
-	console.log(myName)
-
-
+copyOfA.a = 20
+console.log(objectA.a)
