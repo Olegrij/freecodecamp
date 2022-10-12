@@ -26,21 +26,44 @@ console.log(a);
 */
 
 const myCity = {
-	city: 'New York',
-	popular: true,
-	country: 'USA'
+	city: 'New York'
 }
 
-console.log(myCity)
-
-myCity.name = 'oleg'
+myCity['popular'] = true
 
 console.log(myCity)
 
-myCity.name = 'Irusik'
+const countryPropertyName = 'country'
 
-console.log(myCity.name)
-
-delete myCity.country
+myCity[countryPropertyName] = 'USA'
 
 console.log(myCity)
+
+const myNewCity = {
+	city: 'New York',
+	info: {
+		isPopular: true,
+		country: 'USA'
+	}
+}
+
+console.log(myNewCity.info.isPopular)
+
+const name = 'Oleg'
+const postQty = 23
+
+const userProfile = {
+	name: name,
+	postQty: postQty,
+	hasSignedAgreement: false
+}
+
+console.log(userProfile)
+
+const userSecProfile = {
+	name,
+	postQty,
+	vasek: 5
+}
+
+console.log(userSecProfile)
