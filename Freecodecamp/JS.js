@@ -25,6 +25,7 @@ console.log(a);
 
 */
 
+/*
 const myCity = {
 	city: 'New York'
 }
@@ -67,3 +68,14 @@ const userSecProfile = {
 }
 
 console.log(userSecProfile)
+
+
+const a = 10
+
+*/
+
+const myName = "oleg";
+
+console.log(myName)
+
+myName = 10;
