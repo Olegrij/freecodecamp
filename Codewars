@@ -1,0 +1,6 @@
+Function helloWorld() {
+  const str = 'Hellow World!'
+  console.log(str)
+}
+
+helloWorld()
